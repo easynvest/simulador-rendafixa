@@ -8,7 +8,7 @@
     "lint": "eslint scripts/**/*.js",
     "lint:watch": "esw scripts/**/* --watch",
     "build": "gulp minify",
-    "test": "jest --coverage"
+    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
