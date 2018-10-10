@@ -124,7 +124,7 @@ input {
   width: 90%;
   height: 50px;
   text-decoration: none;
-  
+
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -329,4 +329,8 @@ table + .iz-btn {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+.box {
+  display: inline-block;
 }
